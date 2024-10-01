@@ -1,5 +1,6 @@
 import { FeaturedCourses } from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
+import ReviewCards from "@/components/ReviewCards";
 import { WhyChoseUs } from "@/components/WhyChoseUs";
 import Image from "next/image";
 
@@ -9,6 +10,8 @@ export default function Home() {
        <HeroSection />
        <FeaturedCourses/>
        <WhyChoseUs />
+       <ReviewCards />
+       
       </main>
   );
 }
